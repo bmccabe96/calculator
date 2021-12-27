@@ -7,8 +7,9 @@ body {
 }
 
 #container {
-    width: 368px;
-    height: 608px;
+    zoom: .7;
+    width: 460px;
+    height: 760px;
     background-color: rgb(0,0,0,1);
     display: flex;
     flex-direction: column;
@@ -16,17 +17,17 @@ body {
     margin-right: auto;
     margin-top: 20px;
     border: 30px solid black;
-    border-radius: 40px;
+    border-radius: 50px;
 }
 
 .display {
     width: auto;
-    height: 160px;
+    height: 200px;
     background-color: black;
     border: 1px solid black;
     color: white;
     font-weight: bold;
-    font-size: 64px;
+    font-size: 80px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -42,10 +43,10 @@ body {
 
 
 .buttons button {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     border: 1px solid black;
-    border-radius: 40px;
+    border-radius: 50px;
     font-size: 30px;
     background-color: rgb(65, 62, 62);
     color: white;
@@ -57,11 +58,11 @@ body {
 }
 
 .buttons button:active {
-    width: 72px;
-    height: 72px;
+    width: 90px;
+    height: 90px;
     border: 1px solid black;
-    border-radius: 36px;
-    margin: 4px;
+    border-radius: 45px;
+    margin: 5px;
 }
 
 .buttons .operator {
@@ -72,5 +73,5 @@ body {
     background-color: rgb(128, 124, 124);
 }
 .buttons #zero {
-    width: 160px;
+    width: 200px;
 }
