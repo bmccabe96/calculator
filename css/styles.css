@@ -49,6 +49,19 @@ body {
     font-size: 30px;
     background-color: rgb(65, 62, 62);
     color: white;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    opacity: .8;
+}
+
+.buttons button:active {
+    width: 90px;
+    height: 90px;
+    border: 1px solid black;
+    border-radius: 45px;
+    margin: 5px;
 }
 
 .buttons .operator {
