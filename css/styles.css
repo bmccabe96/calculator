@@ -18,21 +18,21 @@ body {
     margin-top: 20px;
     border: 30px solid black;
     border-radius: 50px;
+
 }
 
-.display {
-    width: auto;
+div.display {
+    max-width: 400px;
     height: 200px;
     background-color: black;
     border: 1px solid black;
     color: white;
     font-weight: bold;
     font-size: 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
-    overflow-wrap: break-word;
+    text-align: right;
+    padding-top: 70px;
+    overflow-x: auto;
+    direction: rtl;
 }
 
 
@@ -74,4 +74,12 @@ body {
 }
 .buttons #zero {
     width: 200px;
+}
+
+.buttons #zero:active {
+    width: 190px;
+    height: 90px;
+    border: 1px solid black;
+    border-radius: 45px;
+    margin: 5px;
 }
