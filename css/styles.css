@@ -29,10 +29,11 @@ div.display {
     color: white;
     font-weight: bold;
     font-size: 80px;
-    text-align: right;
     padding-top: 70px;
     overflow-x: auto;
-    direction: rtl;
+    direction: ltr;
+    text-align: right;
+
 }
 
 
